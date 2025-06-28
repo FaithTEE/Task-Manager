@@ -4,12 +4,10 @@ const Home = () => {
   return (
     <div className="space-y-6">
       <Card>
-        <h1 className="text-3xl font-bold mb-4">Welcome to React Frontend Mastery</h1>
-        <p className="text-lg">
-          This project demonstrates modern React development practices including component
-          architecture, state management, API integration, and responsive design with
-          Tailwind CSS.
-        </p>
+        <h1 className="text-5xl font-extrabold mb-4 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 drop-shadow-lg ">
+          Welcome to Task Manager
+        </h1>
+        
       </Card>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
